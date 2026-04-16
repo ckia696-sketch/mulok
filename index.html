@@ -3,28 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Mulok Create Border</title>
-</head>
-<body>
-    <h1>maulana</h1>
-    
-<div class="kotak">
-  Kotak
-</div>
+     <style>
 
-<style>
- .kotak {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: grey;
+            color: black;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }            
+        .container {
+            width: 300px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+        }        
+        .kotak {
   width: 200px;         
   height: 200px;        
-  background-color: cyan; 
-  display: flex;        /*  */
+  background-color: green; 
+  border: 5px solid blue; 
+  display: flex;        
   align-items: center;  
-  justify-content: center;   
-  color: black
-  }         
-</style>
+  justify-content: center; 
+  color: black;         
+  font-weight: bold;    
+}
+
+
+      </style>    
+        
+</head>
+<body>
+    
+    <header>
+        <h1>Maulana</h1>
+    </header>
+    
+<div class="container">
+<div class="kotak" style="background-color: green;">KOTAK</div>
+<div class="kotak" style="background-color: green;">KOTAK</div>
+
+
+
+</div>
 
 
 
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
